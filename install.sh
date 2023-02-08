@@ -1,3 +1,6 @@
+systemctl disable mcx-manipulator.service
+systemctl stop mcx-manipulator.service
+
 cp -r mobile-serial-web/dist /var/www/mobile-serial
 
 cp mobile.conf /etc/nginx/sites-enabled/
