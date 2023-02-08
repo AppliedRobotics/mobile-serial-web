@@ -3,7 +3,7 @@ cp -r mobile-serial-web/dist /var/www/mobile-serial
 cp mobile.conf /etc/nginx/sites-enabled/
 nginx -s reload
 
-pip3 install -r requitements.txt
+pip3 install -r requirements.txt
 
 cp mobile-server.service /lib/systemd/system/
 systemctl daemon-reload
