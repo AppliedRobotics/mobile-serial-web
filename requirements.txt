@@ -1,1 +1,2 @@
 fastapi==0.86.0
+uvicorm==0.20.0
