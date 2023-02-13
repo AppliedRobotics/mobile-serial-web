@@ -8,7 +8,7 @@ User=root
 Group=root
 DynamicUser=true
 
-WorkingDirectory=/home/root/mobile-serial-web/mobile-serial-python
+WorkingDirectory=/home/root/mobile-serial-web-main/mobile-serial-python
 
 #EnvironmentFile=/usr/lib/python3.8/dist-packages/uvicorn
 
