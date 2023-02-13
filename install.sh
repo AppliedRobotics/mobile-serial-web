@@ -1,9 +1,10 @@
 systemctl disable mcx-manipulator.service
 systemctl stop mcx-manipulator.service
 
-cp -r mobile-serial-web/dist /var/www/mobile-serial
+cp -r mobile-serial-web/dist /var/www/mobile-serial/dist
 
 cp mobile.conf /etc/nginx/sites-enabled/
+sudo service nginx restart
 nginx -s reload
 
 pip3 install -r requirements.txt
